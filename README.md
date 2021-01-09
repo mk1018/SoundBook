@@ -33,16 +33,16 @@ cp .env.example .env
 php artisan key:generate
 ```
 
+#### JWTキーを作成
+```
+php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+php artisan jwt:secret
+```
+
 #### マイグレート
 ```
 php artisan migrate
 ```
-
-### JWT
-```
-composer require tymon/jwt-auth
-```
-
 
 ## その他
 
@@ -51,4 +51,11 @@ composer require tymon/jwt-auth
 COMPOSER_MEMORY_LIMIT=-1 composer install
 COMPOSER_MEMORY_LIMIT=-1 composer require tymon/jwt-auth
 COMPOSER_MEMORY_LIMIT=-1 composer require laravel/ui
+```
+
+## メモ
+
+### JWT
+```
+composer require tymon/jwt-auth
 ```
