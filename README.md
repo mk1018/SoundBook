@@ -1,7 +1,11 @@
 # Patient
 
 ## 参考サイト
+【docker】
 https://qiita.com/ucan-lab/items/56c9dc3cf2e6762672f4
+
+【JWT】
+https://qiita.com/nozaki-sankosc/items/7ed320d6549f5f92b9b9
 
 ## URL
 http://localhost:10080
@@ -59,3 +63,6 @@ COMPOSER_MEMORY_LIMIT=-1 composer require laravel/ui
 ```
 composer require tymon/jwt-auth
 ```
+
+### DBeaverで接続がうまくいかないとき
+https://www.it-swarm-ja.tech/ja/mysql/dbeaver%E3%81%A8mysql%E3%81%AE%E9%96%93%E3%81%AE%E6%8E%A5%E7%B6%9A/816507444/
