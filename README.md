@@ -1,16 +1,24 @@
-# Patient
+# SoundBook
 
-## 参考サイト
+## SoundBookとは何か？
+全て音声のみのYoutubeのようなもの。
+検索、操作、など全て声だけで行う。
+
+5/3 これから作るのでまだ中身なし。
+
+
+## 開発環境構築に関して
+### 参考サイト
 【docker】
 https://qiita.com/ucan-lab/items/56c9dc3cf2e6762672f4
 
 【JWT】
 https://qiita.com/nozaki-sankosc/items/7ed320d6549f5f92b9b9
 
-## URL
+### URL
 http://localhost:10080
 
-## クローン後
+### クローン後
 
 #### ビルド
 ```
@@ -48,7 +56,7 @@ php artisan jwt:secret
 php artisan migrate
 ```
 
-## その他
+### その他
 
 #### composerがらみでメモリ不足になる場合
 ```
@@ -57,12 +65,12 @@ COMPOSER_MEMORY_LIMIT=-1 composer require tymon/jwt-auth
 COMPOSER_MEMORY_LIMIT=-1 composer require laravel/ui
 ```
 
-## メモ
+### メモ
 
-### JWT
+#### JWT
 ```
 composer require tymon/jwt-auth
 ```
 
-### DBeaverで接続がうまくいかないとき
+#### DBeaverで接続がうまくいかないとき
 https://www.it-swarm-ja.tech/ja/mysql/dbeaver%E3%81%A8mysql%E3%81%AE%E9%96%93%E3%81%AE%E6%8E%A5%E7%B6%9A/816507444/
